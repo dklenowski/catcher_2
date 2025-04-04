@@ -131,6 +131,7 @@ class Catcher2Options {
   final void Function(FlutterErrorDetails details)? onFlutterError;
 
   /// Function which should additionally be called when an error is caught using
+  // ignore: comment_references
   /// the [PlatformDispatcher.instance.onError] mechanism. Useful if other
   /// packages also need to override this behaviour.
   final void Function(Object error, StackTrace stack)? onPlatformError;
