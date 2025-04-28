@@ -1,0 +1,7 @@
+# dart_dependency_validator.yaml
+ignore:
+  - flutter
+  - cupertino_icons
+  - device_info_example
+  - catcher_2
+  - catcher_2_example
